@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/users/:_id/exercises HTTP/1.1
+content-type: application/json
+
+{
+    ":_id": "61c6c4ca2d5e17bb384a2170",
+    "description": "GMT",
+    "duration":"34",
+    "date": "2000-03-22"
+}
